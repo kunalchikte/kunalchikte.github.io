@@ -1,0 +1,46 @@
+.skill-icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px; /* Adjust the value to change the gap between icons */
+    justify-content: center; /* Centers the grid horizontally */
+}
+
+.skill-icons i {
+    width: 100%; /* Ensures each icon takes up the full width of its grid cell */
+    text-align: center; /* Centers the icon horizontally within its cell */
+}
+
+/* Example styles for icons (you may need to adjust based on your specific icons) */
+.skill-icons i {
+    font-size: 5rem; /* Adjust the icon size as needed */
+}
+
+@media only screen and (max-width: 768px) {
+    .skill-icons i {
+        font-size: 4rem; /* Adjust the gap for smaller screens */
+    }
+    .skill-icons {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        gap: 35px; /* Adjust the gap for smaller screens */
+    }
+}
+
+#duration{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-weight: 500;
+}
+
+.footer__copy{
+    color: #fff;
+}
+
+a{
+    color: #000;
+    text-decoration: underline;
+}
+
+iframe {
+    width: 60%;
+    display: block;
+}

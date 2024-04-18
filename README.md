@@ -22,7 +22,7 @@ This portfolio showcases my skills, projects, and experience in IT Industry. It 
 ## Usage
 
 To view the website, simply click on the following link:
-[Portfolio Website](<insert_website_url_here>)
+[Portfolio Website](<https://kunalchikte.github.io/>)
 
 
 ## Note
